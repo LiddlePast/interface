@@ -2,12 +2,13 @@ const modal = document.getElementById('modal');
 const chatField = document.getElementById('chat');
 const sendMessageBtn = document.getElementById('btn-send');
 const inputField = document.getElementById('input-text');
-const documentTitle = "DOCUMENT";
+const documentTitle = 'Проект 3';
+const appMainTitle = document.getElementById('app-title');
+const appTitle = 'Обнаружение и подсчёт обработанных земель 🌏';
 let inputText;
 
-document.onload = function () {
-    document.title = documentTitle;
-}
+document.title = documentTitle;
+appMainTitle.textContent = appTitle;
 
 const responses = [
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at consequuntur distinctio dolor ex, explicabo facere fugiat hic ipsam ipsum laudantium maiores nobis possimus quas qui repudiandae tenetur totam unde?",
